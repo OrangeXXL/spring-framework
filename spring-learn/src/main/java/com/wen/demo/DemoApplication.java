@@ -4,6 +4,9 @@ import com.wen.demo.service.IService;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
+import java.util.HashMap;
+import java.util.Map;
+
 /**
  * @author WenXun
  * @version 1.0
@@ -17,4 +20,5 @@ public class DemoApplication {
         service.sayHello();
 
     }
+
 }
